@@ -2,7 +2,7 @@ source "https://rubygems.org"
 
 # A DSL for quickly creating web applications
 # https://github.com/sinatra/sinatra
-gem "sinatra", "~> 2.1"
+gem "sinatra", "~> 2.2"
 
 # A fast and simple web server
 # https://github.com/macournoyer/thin
@@ -10,7 +10,7 @@ gem "thin", "~> 1.8"
 
 # Rack middleware. Used specifically for parsing the request body into params.
 # https://github.com/rack/rack-contrib
-gem "rack-contrib", "~> 2.3"
+gem "rack-contrib", "~> 2.5"
 
 # More Rack middleware! Used to handle CORS requests
 # https://github.com/cyu/rack-cors
